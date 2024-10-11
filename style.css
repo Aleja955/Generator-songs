@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-image: linear-gradient(to right top, #c069c4, #ff6097, #ff7f54, #fcb700, #a8eb12);
+}
+
+h1 {
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px 8px #ffff00;
+}
+
+#songs-recommend {
+    position:relative;
+    display: grid;
+    grid-template-columns:repeat(4, 150px) ;
+    grid-gap: 150px;
+    background-image: radial-gradient(circle, #c4c469, #e69d4d, #fb6c60, #ef4092, #ab48cf);
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #ffff00;       
+    width: 1685px;
+    padding: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+
+
+#song {
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: beige;
+    background-image: linear-gradient(to right top, #a739e1, #b34ce3, #be5de5, #c86ee7, #d27eea, #c491f5, #b8a1fc, #afafff, #8cbfff, #66ceff, #43dbff, #3be6ff);
+    height: 150px;
+    width: 880px;
+    line-height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #ffff00;
+    margin-top: 320px;
+    margin-left: 480px;
+
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 300px;
+    background-color: #f6d912;
+    color: #ed8a0a;
+    font-weight: bolder;
+    border-style: none;
+    height: 120px;
+    width: 180px;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 6px 6px 5px #ffff00;
+}
+
+button:hover {
+    background-color:#aa00ff;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+ a:visited {
+    color: inherit;
+} 
+
+a:hover {
+    color: #ffff00;
+}
+
+a:active {
+    color: pink;
+}
